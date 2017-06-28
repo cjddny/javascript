@@ -103,7 +103,7 @@ module.exports = {
     }],
 
     // suggest using of const declaration for variables that are never modified after declared
-    'prefer-const': ['error', {
+    'prefer-const': ['off', {
       destructuring: 'any',
       ignoreReadBeforeAssign: true,
     }],

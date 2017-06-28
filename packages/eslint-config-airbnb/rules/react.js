@@ -166,7 +166,7 @@ module.exports = {
 
     // Prevent using string references
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md
-    'react/no-string-refs': 'error',
+    'react/no-string-refs': 'warn',
 
     // Prevent usage of unknown DOM property
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md
