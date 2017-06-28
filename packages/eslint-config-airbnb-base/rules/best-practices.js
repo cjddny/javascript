@@ -232,7 +232,7 @@ module.exports = {
 
     // disallow usage of expressions in statement position
     'no-unused-expressions': ['error', {
-      allowShortCircuit: false,
+      allowShortCircuit: true,
       allowTernary: false,
       allowTaggedTemplates: false,
     }],
